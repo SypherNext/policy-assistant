@@ -1,0 +1,34 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# The reranker model fastembed downloads on first use (about 80 MB)
+.models/
+
+# Files the scripts write when you run them
+l03_map.json
+l11_eval.json
+l12_answers.json
+l12_judge.json
+l16_requests.jsonl
+lessons/policies-work/
+*.out.txt
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+
+# Build output, logs, OS and editor files
+dist/
+build/
+coverage/
+logs/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,7 @@
+# Versions the course ran with: psycopg 3.3.7, pgvector 0.5.1, numpy 2.5.4, httpx 0.28.1, fastembed 0.9.1.
+# The ranges keep you on the same major (or, below 1.0, the same minor) version.
+psycopg[binary]>=3.3.7,<4
+pgvector>=0.5.1,<0.6
+numpy>=2.5.4,<3
+httpx>=0.28.1,<0.29
+fastembed>=0.9.1,<0.10
